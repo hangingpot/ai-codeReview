@@ -13,6 +13,7 @@ const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
 const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
+  baseURL: 'https://api.chatanywhere.tech/v1'
 });
 
 interface PRDetails {

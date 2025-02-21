@@ -14,8 +14,11 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@octokit/rest": "^19.0.7",
+    "@openai/openai": "npm:@jsr/openai__openai",
+    "dotenv": "^16.4.7",
+    "https-proxy-agent": "^7.0.6",
     "minimatch": "^7.4.2",
-    "openai": "^4.20.1",
+    "openai": "latest",
     "parse-diff": "^0.11.1",
     "ts-node": "^10.9.1"
   },
