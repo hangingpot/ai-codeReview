@@ -8,6 +8,7 @@ function fib(n: number): number {
         return fib(n - 1) + fib(n - 2);
     }
     if(n<0){
+        
 }
 console.log(fib(10)); // 55
 console.log(fib(20)); // 6765
